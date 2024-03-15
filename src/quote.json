@@ -1,0 +1,86 @@
+{
+	"quoteResponse": [
+		{
+			"inputMint": "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR",
+			"inAmount": "39902116",
+			"outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+			"outAmount": "100",
+			"otherAmountThreshold": "40101627",
+			"swapMode": "ExactOut",
+			"slippageBps": 50,
+			"platformFee": null,
+			"priceImpactPct": "0",
+			"routePlan": [
+				{
+					"swapInfo": {
+						"ammKey": "6dWZmFXdS6AxsV2N5pT94JhJ46zBoqEbkFfizBcABB3e",
+						"label": "Whirlpool",
+						"inputMint": "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR",
+						"outputMint": "E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE",
+						"inAmount": "39902116",
+						"outAmount": "1366495",
+						"feeAmount": "51872",
+						"feeMint": "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"
+					},
+					"percent": 100
+				},
+				{
+					"swapInfo": {
+						"ammKey": "AcgKhLgAew779Z9qCak5NAeVULaambzmJdZVuBUpnYDQ",
+						"label": "Raydium",
+						"inputMint": "E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE",
+						"outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+						"inAmount": "1366495",
+						"outAmount": "100",
+						"feeAmount": "3416",
+						"feeMint": "E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE"
+					},
+					"percent": 100
+				}
+			],
+			"contextSlot": 249491694,
+			"timeTaken": 0.01482186
+		},
+		{
+			"inputMint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+			"inAmount": "2755",
+			"outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+			"outAmount": "1000",
+			"otherAmountThreshold": "2769",
+			"swapMode": "ExactOut",
+			"slippageBps": 50,
+			"platformFee": null,
+			"priceImpactPct": "0",
+			"routePlan": [
+				{
+					"swapInfo": {
+						"ammKey": "GJRqLMXdRfQQTmaUJyW5hi3Z9H4xyVpWq9BXFqMCAYoU",
+						"label": "Whirlpool",
+						"inputMint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+						"outputMint": "CzLWmvjtj5bp9YEWkzzBnuWovVtogeuchFu5GeFh68hB",
+						"inAmount": "2755",
+						"outAmount": "10347453777",
+						"feeAmount": "1",
+						"feeMint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"
+					},
+					"percent": 100
+				},
+				{
+					"swapInfo": {
+						"ammKey": "CD8tu4UvzeaPN88DBVs9gekU7jAURUsLA6eKHzYN9HNp",
+						"label": "Whirlpool",
+						"inputMint": "CzLWmvjtj5bp9YEWkzzBnuWovVtogeuchFu5GeFh68hB",
+						"outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+						"inAmount": "10347453777",
+						"outAmount": "1000",
+						"feeAmount": "13451689",
+						"feeMint": "CzLWmvjtj5bp9YEWkzzBnuWovVtogeuchFu5GeFh68hB"
+					},
+					"percent": 100
+				}
+			],
+			"contextSlot": 249492160,
+			"timeTaken": 0.017261702
+		}
+	]
+}

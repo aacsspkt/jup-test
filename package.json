@@ -1,0 +1,22 @@
+{
+  "name": "jup-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ashish Sapkota",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js": "^1.90.0",
+    "@types/node": "^20.11.17",
+    "bignumber.js": "^9.1.2",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "zebec-instant-card-sdk": "^1.0.0"
+  }
+}
